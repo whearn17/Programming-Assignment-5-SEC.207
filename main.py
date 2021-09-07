@@ -1,17 +1,11 @@
-#Will Hearn
-# This is a sample Python script.
+# Will Hearn
+# SEC 207.91-21
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Printing Method
+def print_something(name):
+    print(name)
 
 
-# Press the green button in the gutter to run the script.
+# Main Method
 if __name__ == '__main__':
-    print_hi('Bruh')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    print_something('Bruh')
