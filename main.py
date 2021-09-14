@@ -15,7 +15,10 @@ def multiply_number():
 def count_letters():
     count = 0
     for x in input("Enter a word: "):
-        count += 1
+        if x == " ":
+            pass
+        else:
+            count += 1
     print(count)
 
 
