@@ -1,6 +1,8 @@
 # Will Hearn
 # SEC 207.91-21
 # 9/14/21
+from datetime import datetime
+
 
 # Does a list of things
 def do_things():
@@ -17,6 +19,7 @@ def do_things():
             count += 1
     print(count)
 
+    print("Current Time =", datetime.now().strftime("%H:%M:%S"))
 
 # Main Method
 if __name__ == '__main__':
