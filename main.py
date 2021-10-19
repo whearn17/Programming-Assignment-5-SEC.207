@@ -21,6 +21,7 @@ def do_things():
 
     print("Current Time =", datetime.now().strftime("%H:%M:%S"))
 
+
 # Main Method
 if __name__ == '__main__':
     do_things()
