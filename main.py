@@ -1,6 +1,8 @@
 # Will Hearn
 # SEC 207.91-21
 # 9/14/21
+import random
+
 
 # Does a list of things
 def do_things():
@@ -16,6 +18,8 @@ def do_things():
         else:
             count += 1
     print(count)
+
+    print("Your random number is:", random.randint(1, 10))
 
 
 # Main Method
